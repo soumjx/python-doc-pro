@@ -11,6 +11,13 @@ A Python utility to convert Microsoft Word documents (`.docx`) into Markdown, HT
 ## Prerequisites
 1. Python 3.8+
 
+python-docx==1.1.0
+mammoth==1.6.0
+markdownify==0.11.6
+xhtml2pdf==0.2.15
+pandas>=2.0.0
+openpyxl==3.1.2
+
 ## Installation
 
 1. Create a virtual environment:
