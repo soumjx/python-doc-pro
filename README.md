@@ -16,4 +16,7 @@ A Python utility to convert Microsoft Word documents (`.docx`) into Markdown, HT
 1. Create a virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   .\venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   python generate_test_data.py
+   python main.py --input input/tables.docx --output output
